@@ -8,13 +8,13 @@
 #Write your code below this line 👇
 
 print("Welcome to the tip calculator!")
-total_bill = input("What was the total bill?")
+total_bill = input("What was the total bill?\n")
 total_bill = float(total_bill)
 print(f"${total_bill}")
-tip_gave = input("How much tip would like to give? 10, 12, or 15?")
+tip_gave = input("How much tip would like to give? 10, 12, or 15?\n")
 tip_gave = int(tip_gave)
-print(f"${tip_gave}")
-splited_bill = input("How many people to split the bill?")
+print(f"{tip_gave}%")
+splited_bill = input("How many people to split the bill?\n")
 splited_bill = int(splited_bill)
 print(f"{splited_bill} people")
 
